@@ -3,6 +3,10 @@ body {
     font-style: normal;
 }
 
+* {
+    margin: 0;
+}
+
 /* -------------------common styles------------------- */
 .off-color {
     color: #E55473;
@@ -239,7 +243,7 @@ body {
     font-size: 18px;
     font-weight: 400;
     margin-top: 24px;
-    margin-bottom: 32px;
+    margin-bottom: 30px;
 }
 
 .footer-link {
