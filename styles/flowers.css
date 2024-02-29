@@ -2,3 +2,248 @@ body {
     font-family: "Lato", sans-serif;
     font-style: normal;
 }
+
+/* -------------------common styles------------------- */
+.off-color {
+    color: #E55473;
+}
+
+.flower-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.btn-flower {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 35px;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.flower-feature {
+    text-align: center;
+    margin: 170px 650px 50px 650px;
+}
+
+.flower-feature-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+
+    margin-bottom: 24px;
+}
+
+/* ------------header related styles------------- */
+.header {
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.flower-container {
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    padding: 0px 200px;
+
+}
+
+.flower-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 32px;
+}
+
+.flower-container img {
+    width: 600px;
+    padding-top: 50px;
+
+}
+
+/* ------------------flower iteam styles-------------------- */
+
+
+
+
+.flowers-name-container {
+    display: flex;
+    gap: 15px;
+    margin: 48px 240px 0px 240px;
+}
+
+.pink {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 110px 75px 0px 75px;
+}
+
+.blue {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 117px 47px 50px 47px;
+}
+
+.green {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 67px 75px 0px 75px;
+}
+
+.flower-name {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: underline;
+    margin-top: 32px;
+}
+
+/*------------------- delivery related styles------------------- */
+
+.delivery-container {
+    display: flex;
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 120px 240px 0px 240px;
+
+}
+
+.delivery-iteam {
+    padding: 85px 50px;
+    text-align: center;
+
+}
+
+.delivery-iteam img {
+    width: 88px;
+
+}
+
+.delivery-description {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 24px;
+    margin-bottom: 80px;
+    margin-left: 50px;
+
+
+}
+
+/*------------------- discount related styles------------------ */
+.discount-container-banner {
+    display: flex;
+    gap: 180px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    /* margin-top: 120px; */
+    margin: 120px 0px;
+    height: 620px;
+
+
+}
+
+.discount-banner {
+    text-align: center;
+    padding-left: 380px;
+    padding-top: 230px;
+    padding-bottom: 160px;
+
+}
+
+.discount-container-banner img {
+    width: 300px;
+    height: 420px;
+    padding: 100px 400px 100px 0px;
+}
+
+.discount-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+
+/*-------------------------- instagram related styles------------------ */
+.instagram-container {
+    text-align: center;
+}
+
+.insta-flowers {
+    display: flex;
+    gap: 24px;
+    margin: 45px 240px 120px 240px;
+}
+
+.insta-flower img {
+    width: 340px;
+    height: 390px;
+}
+
+/*------------------------------ flower shopping related styles-------------------------- */
+.shopping-flower {
+    background-image: url('../Flower Asset/Rectangle\ 9.png ');
+    background-repeat: no-repeat;
+    margin: 100px 240px;
+    border-radius: 8px;
+    width: 1440px;
+    height: 450px;
+}
+
+.shopping-feature {
+    text-align: center;
+    padding: 120px 500px 20px 500px;
+}
+
+.flower-form input[type="email"] {
+    width: 700px;
+    padding: 20px;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0;
+    margin-right: 16px;
+    margin-left: 280px;
+    /* padding: 20px; */
+}
+
+.flower-form {
+    padding-bottom: 120px;
+    align-items: center;
+}
+
+/* -------------------footer related styles----------------------- */
+.footer {
+    background: #111010;
+    width: 1922px;
+    height: 449px;
+}
+
+.footer-flower-details {
+    text-align: center;
+    padding: 100px 650px;
+}
+
+.footer-title {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.footer-link {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+}
